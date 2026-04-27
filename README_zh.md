@@ -54,6 +54,6 @@ VoxCPM 是一个**无离散音频分词器**（Tokenizer-Free）的语音合成�
 > 🗒️ **学习进度记录**：
 > - [x] 跑通基础 TTS 推理流程
 > - [x] 理解 AudioVAE V2 编解码结构
-> - [x] 研究扩散自回归的训练细节（参考 `train/diffusion_ar.py`，重点看 `DiffusionARModel.forward` 中的 noise schedule 部分）
-> - [ ] 复现粤语方言克隆效果
-> - [ ] 对比不同 `num_diffusion_steps` 参数下的音质与速度权衡
+> - [x] 研究扩散自回归的训练细节（参考论文 Section 3）
+> - [ ] 复现粤语方言克隆效果并与普通话对比
+> - [ ] 尝试用自定义参考音频测试「极致克隆」模式
