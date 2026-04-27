@@ -67,8 +67,8 @@ _USAGE_INSTRUCTIONS_ZH = (
     "注意：该模式与可控克隆模式互斥，将禁用Control Instruction。\n\n"
 )
 
+# TODO: add more Chinese example prompts covering different speaking styles (e.g. news anchor, storyteller)
 _EXAMPLES_FOOTER_ZH = (
     "---\n"
     "**💡 声音描述示例（中英文均可）：**  \n\n"
-    "**示例 "
-)
+    "
