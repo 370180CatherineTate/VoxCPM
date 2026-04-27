@@ -50,7 +50,13 @@ _EXAMPLES_FOOTER_EN = (
     "`Control Instruction`: *\"Relaxed young male voice, slightly nasal, "
     "lazy drawl, very casual and chill.\"*  \n"
     "`Target Text`: *\"Dude, did you see that set? The waves out there are totally gnarly today. "
-    "Just catching barrels all morning — it's like, totally righteous, you know what I mean?\"*"
+    "Just catching barrels all morning — it's like, totally righteous, you know what I mean?\"*\n\n"
+    # Personal addition: a third example showcasing a professional narrator style
+    "**Example 3 — Professional Narrator**  \n"
+    "`Control Instruction`: *\"Deep, authoritative male voice. Clear enunciation, "
+    "measured pace, calm and confident tone like a documentary narrator.\"*  \n"
+    "`Target Text`: *\"In the vast expanse of the universe, every star tells a story "
+    "billions of years in the making.\"*"
 )
 
 _USAGE_INSTRUCTIONS_ZH = (
@@ -67,8 +73,4 @@ _USAGE_INSTRUCTIONS_ZH = (
     "注意：该模式与可控克隆模式互斥，将禁用Control Instruction。\n\n"
 )
 
-# TODO: add more Chinese example prompts covering different speaking styles (e.g. news anchor, storyteller)
-_EXAMPLES_FOOTER_ZH = (
-    "---\n"
-    "**💡 声音描述示例（中英文均可）：**  \n\n"
-    "
+# TODO: add more Chinese example prompts covering different speaking style
